@@ -1,0 +1,50 @@
+2019-04-29 15:28:17,176 INFO [main] c.m.w.WebServiceApplicationTests [StartupInfoLogger.java : 50] Starting WebServiceApplicationTests on fengr06-szzbn with PID 53984 (started by fengr06 in D:\mrcoderservice\web-service)
+2019-04-29 15:28:17,178 INFO [main] c.m.w.WebServiceApplicationTests [SpringApplication.java : 679] The following profiles are active: dev
+2019-04-29 15:28:19,193 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-29 15:28:19,198 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-29 15:28:19,244 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-04-29 15:28:20,010 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$411af72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-29 15:28:20,148 INFO [main] c.m.webservice.config.MybatisConfig [MybatisConfig.java : 20] initialize the ConfigurationCustomizer....
+2019-04-29 15:28:20,211 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] Loaded jar:file:/D:/MaveRepository/com/atomikos/transactions/4.0.6/transactions-4.0.6.jar!/transactions-defaults.properties
+2019-04-29 15:28:20,212 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] Loaded file:/D:/mrcoderservice/web-service/target/classes/jta.properties
+2019-04-29 15:28:20,225 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.default_max_wait_time_on_shutdown = 9223372036854775807
+2019-04-29 15:28:20,226 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.allow_subtransactions = true
+2019-04-29 15:28:20,227 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.recovery_delay = 600000
+2019-04-29 15:28:20,228 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.automatic_resource_registration = true
+2019-04-29 15:28:20,228 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.oltp_max_retries = 5
+2019-04-29 15:28:20,229 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.client_demarcation = false
+2019-04-29 15:28:20,230 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.threaded_2pc = false
+2019-04-29 15:28:20,231 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.serial_jta_transactions = false
+2019-04-29 15:28:20,232 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.log_base_dir = transaction-logs
+2019-04-29 15:28:20,232 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.rmi_export_class = none
+2019-04-29 15:28:20,233 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.max_actives = 50
+2019-04-29 15:28:20,234 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.checkpoint_interval = 500
+2019-04-29 15:28:20,234 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.enable_logging = true
+2019-04-29 15:28:20,235 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.log_base_name = springboot-mybatis
+2019-04-29 15:28:20,238 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.max_timeout = 600000
+2019-04-29 15:28:20,239 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.trust_client_tm = false
+2019-04-29 15:28:20,239 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+2019-04-29 15:28:20,240 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.tm_unique_name = 10.39.35.92.tm
+2019-04-29 15:28:20,241 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.forget_orphaned_log_entries_delay = 86400000
+2019-04-29 15:28:20,243 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.oltp_retry_interval = 10000
+2019-04-29 15:28:20,244 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: java.naming.provider.url = rmi://localhost:1099
+2019-04-29 15:28:20,245 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+2019-04-29 15:28:20,246 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.force_shutdown_on_vm_exit = false
+2019-04-29 15:28:20,247 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] USING: com.atomikos.icatch.default_jta_timeout = 600000
+2019-04-29 15:28:20,249 INFO [main] c.a.icatch.provider.imp.AssemblerImp [Slf4jLogger.java : 28] Using default (local) logging and recovery...
+2019-04-29 15:28:20,795 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1,master} inited
+2019-04-29 15:28:20,819 INFO [main] c.a.d.xa.XATransactionalResource [Slf4jLogger.java : 28] masterDataSource: refreshed XAResource
+2019-04-29 15:28:21,124 INFO [main] c.m.w.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 49] mapper文件地址为：classpath:mapper/*/*.xml
+2019-04-29 15:28:21,212 INFO [main] c.m.w.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 60] mybatis配置驼峰转换为：true
+2019-04-29 15:28:21,407 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-2,slave} inited
+2019-04-29 15:28:21,410 INFO [main] c.a.d.xa.XATransactionalResource [Slf4jLogger.java : 28] slaveDataSource: refreshed XAResource
+2019-04-29 15:28:22,528 INFO [main] c.m.webservice.config.DruidConfig [DruidConfig.java : 33] servletRegistrationBean configure is starting...
+2019-04-29 15:28:22,544 INFO [main] c.m.webservice.config.DruidConfig [DruidConfig.java : 50] filterRegistrationBean configure is starting...
+2019-04-29 15:28:23,508 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-29 15:28:24,340 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 120] Context refreshed
+2019-04-29 15:28:24,374 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 123] Found 1 custom documentation plugin(s)
+2019-04-29 15:28:24,393 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-04-29 15:28:24,793 INFO [main] c.m.w.WebServiceApplicationTests [StartupInfoLogger.java : 59] Started WebServiceApplicationTests in 8.445 seconds (JVM running for 9.738)
+2019-04-29 15:28:25,234 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-29 15:28:25,239 INFO [Thread-2] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'slaveDataSource': destroying pool...
+2019-04-29 15:28:25,265 INFO [Thread-2] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'masterDataSource': destroying pool...

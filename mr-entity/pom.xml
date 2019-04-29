@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mrcoder</groupId>
+    <artifactId>mr-entity</artifactId>
+    <version>0.0.1</version>
+    <name>mr-entity</name>
+    <description>mr-entity</description>
+
+    <parent>
+        <groupId>com.mrcoder</groupId>
+        <artifactId>mrcoder-service</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--</plugin>-->
+            <!--&lt;!&ndash; mybatis generator 自动生成代码插件 &ndash;&gt;-->
+            <!--<plugin>-->
+                <!--<groupId>org.mybatis.generator</groupId>-->
+                <!--<artifactId>mybatis-generator-maven-plugin</artifactId>-->
+                <!--<version>${mybatis-generator.version}</version>-->
+                <!--<configuration>-->
+                    <!--&lt;!&ndash; 对应generator配置文件的路径 &ndash;&gt;-->
+                    <!--<configurationFile>src/main/resources/generator/masterGenerator.xml</configurationFile>-->
+                    <!--&lt;!&ndash;<configurationFile>src/main/resources/generator/slaveGenerator.xml</configurationFile>&ndash;&gt;-->
+                    <!--<overwrite>true</overwrite>-->
+                    <!--<verbose>true</verbose>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+
+
+</project>
